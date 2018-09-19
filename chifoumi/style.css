@@ -1,0 +1,47 @@
+body
+{
+	background-color: #222;
+}
+
+.image 
+{
+	height: 100px;
+	width:  100px;
+	color: #ffa500;
+	border: 1px solid ;
+	font-size: 100px;
+}
+
+.images
+{
+	text-align: center;
+}
+
+h1
+{
+	margin: auto;
+	margin-left: 300px; 
+	margin-right: 300px;
+	color: #ffa500;
+	border: 5px solid ;
+	font-size: 100px;
+	text-align: center;
+}
+
+.rejouer
+{
+	border-radius: 5px;
+	font-size: 50px;
+}
+
+.VS
+{
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+
+.down{
+	position: absolute;
+	margin-bottom: -20%;
+}
