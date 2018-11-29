@@ -1,5 +1,6 @@
 body
 {
+	font-family: "Roboto+Condensed", cursive;
 	background-color: #222;
 }
 
@@ -23,15 +24,17 @@ h1
 	margin-left: 300px; 
 	margin-right: 300px;
 	color: #ffa500;
-	border: 5px solid ;
-	font-size: 100px;
+	border: 2px solid ;
+	font-size: 50px;
 	text-align: center;
 }
 
-.rejouer
+button
 {
 	border-radius: 5px;
 	font-size: 50px;
+	background-color: #ffa500;
+	color: white;
 }
 
 .VS
@@ -41,7 +44,20 @@ h1
 	text-align: center;
 }
 
-.down{
-	position: absolute;
-	margin-bottom: -20%;
+.regles{
+	text-align: center;
+	color: white;
+	font-size: 253%;
+}
+.affichage{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 350px;
+}
+
+#score{
+	color: white;
+	font-size: 150%;
+	margin-top: 5%;
 }

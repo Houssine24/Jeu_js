@@ -1,3 +1,11 @@
+/*
+	Bouton "Reset" => réinitialise le jeu.
+*/
+$('#reset').on('click', function(){
+	location.reload();
+});
+
+
 
 /*
 	Bouton "Jouer" => fermer la popup
@@ -9,7 +17,6 @@ $('#jouer').on('click', function(){
 		cartes = melanger_cartes( cartes );
 
 		afficher_jeu();
-
 		$('#configuration').hide();
 	}
 });
@@ -43,7 +50,6 @@ $('#game').delegate('.carte:not(.figee)', 'click', function(){
 
 		$(last).addClass('figee');
 		$(prev).addClass('figee');
-
 		tester_gagnant();
 	}
 	else

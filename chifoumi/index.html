@@ -3,80 +3,46 @@
 <head>
 
 	<meta charset="utf-8">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<title>PIERRE-FEUILLE-PAPIER-CISEAUX</title>
 </head>
+	
 <body>
 	<h1>CHIFOUMI</h1>
 
-
-	<button id="reset" class="rejouer">rejouer</button>
-
-
-	<p class="images">
-		<img src="pierre.jpg" id="pierre" class="image">
-		<img src="feuille.jpg" id="feuille" class="image">
-		<img src="ciseaux.jpg" id="ciseaux" class="image">
-	</p>	
-
-	<div id="jeu">
-
-		<div id="jouer">
-			<button id="jouer">JOUER</button>
+	<div class="affichage">
+		<div id="score">
+			<div>Score Joueur : 0</div>
+			<div>Score Ordinateur : 0</div>
 		</div>
 
-		<div id="joueur">
-			<input id="prenom" type="texte" name="tapez votre prénom" class="validate" placeholder="Quel est votre prénom?"></input>
-			<button id="ok">OK</button>
+		<div id="div2" class="regles">
+			Choisissez une forme avec laquelle jouer :
+		</div>
+		<br>
+		<div class="images">
+			<img src="pierre.jpg" id="pierre" class="image">
+			<img src="feuille.jpg" id="feuille" class="image">
+			<img src="ciseaux.jpg" id="ciseaux" class="image">
 		</div>	
-
-
-		<div id="affichage1">
-			<p id="cpt_joueur"></p>
+		<br>
+		<div id="div1" class="VS">
+			Votre adversaire a choisi : 
 		</div>
-
-
-		<div id="affichage2">
-			<p>ordi</p>
-			<p id=" cpt_ordi"></p>
-		</div>
-
-
-<!-- <div id="jeu">
-
-		<div id="jouer">
-			<button id="jouer">JOUER</button>
-		</div>
-
-		<div id="joueur">
-			
-			<input id="prenom" type="texte" name="tapez votre prénom" class="validate" placeholder="Quel est votre prénom?"></input>
-			<button id="ok">OK</button>
+		<br>
+		<div class="images">
+			<img src="pierre.jpg" id="pierre2" class="image">
+			<img src="ciseaux.jpg" id="ciseaux2" class="image">
+			<img src="feuille.jpg" id="feuille2" class="image">
 		</div>	
-	-->
-	<div id="div1" class="VS">
-		Ton adversaire à choisi : 
 	</div>
-	<div id="affichage1">
-			<p id="cpt_joueur"></p>
-		</div>
+	<button id="reset">reset</button>
+	<button id="play" class="rejouer">rejouer</button>
 
-
-		<div id="affichage2">
-			<p>ordi</p>
-			<p id=" cpt_ordi"></p>
-		</div>
-	<br> 
-
-	<div class="images">
-		<img src="pierre.jpg" id="pierre2" class="image">
-		<img src="ciseaux.jpg" id="ciseaux2" class="image">
-		<img src="feuille.jpg" id="feuille2" class="image">
-	</div>	
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="app.js"></script>
+
 </body>
 
 </html>

@@ -1,0 +1,275 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #FF8C00;
+}
+h2
+{
+    color: rgb(255, 165, 0);
+    text-align: center;
+}
+body
+{
+    font-family: Helvetica sans-serif;
+    background-color: black;
+}
+.header{
+    font-size: 200%;
+    height:360px;
+    text-align:center;
+    line-height:200px;
+    background:#DCDCDC;
+    color: white;
+}
+html, body {
+  height: 100%;
+}
+body {
+  position: relative;
+  perspective: 400px;
+}
+canvas {
+  display: block;
+  position: absolute;
+}
+.nav-wrapper{
+    background-color: #191970;
+    
+}
+.brand-logo{
+    margin-right: 200%;
+}
+#menu
+{
+    margin-left: 4%;
+    font-size: 30%;
+}
+#imag
+{
+    background-image: url("vers.jpg");
+    background-attachment: fixed;
+    overflow: scroll;
+}
+#slideshow {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin:  20px auto;
+    overflow: hidden;
+}
+#sContent li {
+    display: inline;
+}
+#sContent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 450px;
+    margin: 0;            
+    padding: 0;
+    
+    /*CSS3 keyframes animation*/
+    animation-name: AutoSlide;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#intro
+{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 23px;
+    color: #222;
+}
+.container
+{
+margin: 70px 360%;
+    padding: 70px 100px;
+    border-radius: 30px;
+    box-shadow: 0 9px 13px 0 rgba(50,50,93,0.10), 0 15px 60px 0 rgba(0,0,0,0.20);
+    font-family: 'Open Sans', sans-serif;;
+    background-color: #F5FFFA; 
+    border: solid;
+    border-color: orange;
+}
+h1
+{  
+font-family: 'Cinzel', serif;
+}
+#porte
+{
+    height: 30%;
+    width: 20%;
+}
+#talk
+{
+    color:blue;
+    font-size: 300%;
+}
+#mark
+{
+    color: blue;
+}
+#p
+{
+    color:white;
+    font-size: 60%;
+}
+div#slider 
+{
+ width: 80%; max-width: 1000px; 
+}
+div#slider figure 
+{
+  position: relative; 
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: left;
+}
+div#slider figure img 
+{
+ width: 20%; height: auto; float: left; 
+}
+div#slider
+ { 
+    width: 80%; max-width: 1000px; overflow: hidden
+ }
+ @keyframes slidy {
+  0% { left: 0%; } 
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
+@keyframes slider {
+    0%, 20%, 100%   { left: 0 }
+    25%, 45%        { left: -100% }
+    50%, 70%        { left: -200% }
+    75%, 95%        { left: -300% }
+}
+div#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: left;
+  animation: 60s slidy infinite;
+}
+#presentation
+{
+    color:orange;
+    font-family: 'Bangers', cursive;
+}
+.conteneur 
+{
+/*    display: flex;*/
+}
+.texte
+{
+    float: right;
+    font-family: 'Ultra', serif;
+    
+}
+.ground
+{
+    background-color:white;
+/*  background-image: url("ok.jpg");*/
+    background-attachment: fixed;
+    overflow: scroll;
+}
+.p
+{
+    background-image: url("ok.png");
+    background-attachment: fixed;
+    overflow: scroll;
+}
+.m
+{
+    background-image: url("morp.jpeg");
+    background-attachment: fixed;
+    overflow: scroll;
+}
+.memo
+{
+    background-image: url("memories.jpeg");
+    background-attachment: fixed;
+    overflow: scroll;
+}
+
+.memor
+{
+    background-image: url("memory.jpeg");
+    background-attachment: fixed;
+    overflow: scroll;
+}
+#titre
+{
+    color: orange;
+    font-family: 'Monoton', cursive;
+    font-size: 100px;
+    font-family: 'Ultra', serif;
+}
+.img
+{
+    width: 5%;
+    height: 8%;
+}
+#texte
+{
+    font-size: 25px;
+    font-family: 'Ultra', serif;
+    color: orange;
+    position: center;
+}
+.active
+{
+    font-size: 30px;
+}
+#color
+{
+    color:white;
+}
+.t
+{
+    color:white; 
+    font-size: 30px;
+}
+.l
+{
+    color: white;
+    size: 100px;
+}
+.rdv
+{
+    color: blue;
+    font-size: 70px;
+}
+.r
+{
+    font-size: 30px;
+    color:orange;
+}
+.titrePorte{
+  color: #222;
+}
+
+.vert{
+  color: green;
+}
+
+.rouge{
+  color: red;
+}
+
+.colorExo{
+  color: white;
+  
+}

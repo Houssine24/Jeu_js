@@ -50,7 +50,6 @@ function afficher_jeu()
 	for( var i=0 ; i<cartes.length ; i++ )
 	{
 		carte = cartes[i];
-
 		ajouter_carte(carte);
 	}
 }
@@ -84,7 +83,8 @@ function tester_gagnant()
 	if( $('.carte:not(.figee)').length == 0 ){
 		alert( joueur + ', tu as gagné en ' + (cartes_jouees.length/2) + ' coups !' );
 
-		setTimeout(function(){
+		setTimeout(function()
+		{
 			$('#game').empty();
 			$('#configuration').show();
 		}, 1000);
